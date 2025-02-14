@@ -39,9 +39,21 @@ src/
 - **Paradigma**: Programação Orientada a Objetos (POO)
 
 ## Exemplo de Uso
-1. Execute o projeto utilizando Node.js.
-2. Após iniciar o bot, escaneie o QR Code gerado no terminal.
-3. O bot estará pronto para interagir com os usuários no WhatsApp.
-4. Ao enviar mensagens ao bot, ele responderá automaticamente de acordo com as opções do menu:
-   - Opção 1: Solicitar uma opção.
-   - Opção 2: Encerrar atendimento.
+
+1. Instale as dependências do projeto utilizando o npm:
+
+   ```bash
+   npm install
+   ```
+
+2. Após a instalação, execute o projeto com o Node.js:
+
+   ```bash
+   node src/bot/chatbot.js
+   ```
+
+3. O bot gerará um QR Code no terminal. Escaneie esse QR Code no WhatsApp para conectar o bot à sua conta.
+4. O bot estará pronto para interagir com os usuários no WhatsApp.
+5. Ao enviar mensagens ao bot, ele responderá automaticamente de acordo com as opções do menu:
+   - **Opção 1**: Solicitar uma opção.
+   - **Opção 2**: Encerrar atendimento.
